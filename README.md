@@ -13,7 +13,13 @@ See `SKILL.md` for the full text, worked examples, and rationale.
 
 ## Install
 
-Copy `SKILL.md` (and the `evals/` folder if you want the test cases) into a directory under your Claude Code skills path:
+Using the [`skills` CLI](https://skills.sh) (recommended):
+
+```bash
+npx skills add naiplawan/disciplina
+```
+
+Or install manually by copying into your Claude Code skills path:
 
 ```bash
 # User-level (applies across all projects)
